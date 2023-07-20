@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Power Play</title>
+    <script src="https://beta.mural.co/static/extensions/e11y-sdk-v0.1.1.min.js"></script>
+    <!-- See https://powerplays.mural.global/docs#plugin-sdk for the latest SDK resource -->
+
+    <script>
+        const init = (args) => {
+            const { app } = args;
+            // our code here
+            console.log('hi max');
+            muralSdk.register.sidebar.buttons({
+                description: 'Celebrate in MURAL - a sample PowerPlay.',
+                SVGicon: image,
+                name: 'celebrate_sample',
+                title: 'Celebration Sample',
+                tooltipText: 'Celebrate in Style',
+                onClick: () => {
+                    // insert code for trigger celebration
+                },
+            });
+        };
+
+        muralSdk.onReady(init);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,2632 @@
+/* Variables */
+:root {
+  /* Primary Button Colors */
+  --color-primary-100: #73151b;
+  --color-primary-90: #8c1a21;
+  --color-primary-80: #b3212a;
+  --color-primary-70: #e02935;
+
+  /* Secondary Button Colors */
+  --color-gray-100: #1f1f1f;
+  --color-gray-80: #4e4e4e;
+  --color-gray-90: #2f2f2f;
+  --color-gray-70: #737373;
+  --color-gray-20: #eeeeee;
+  --color-gray-40: #bbbbbb;
+  --color-gray-30: #dedede;
+
+  /* Additional Colors */
+  --color-blue-100: #1e3d7d;
+  --color-blue-90: #2a56b0;
+  --color-blue-70: #3770e4;
+  --color-blue-10: #f5faff;
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  /* Secondary Colors */
+
+  /* Tomato */
+  --color-tomato-90: #be2730;
+  --color-tomato-70: #D43A40;
+  --color-tomato-60: #E0484D;
+  --color-tomato-50: #E36367;
+  --color-tomato-40: #F09497;
+  --color-tomato-30: #F6C1C2;
+  --color-tomato-10: #FBE0DF;
+  --color-tomato-desaturated: #E5B3B6;
+
+  /* Orange */
+  --color-orange-90: #b24401;
+  --color-orange-70: #c94f13;
+  --color-orange-60: #e5791A;
+  --color-orange-50: #f49e48;
+  --color-orange-40: #f5c792;
+  --color-orange-30: #fce0c0;
+  --color-orange-10: #ffe7cc;
+  --color-orange-desaturated: #ebba8e;
+
+  /* Lemon */
+  --color-lemon-90: #7a6310;
+  --color-lemon-70: #8e7417;
+  --color-lemon-60: #b69e23;
+  --color-lemon-50: #e4cb49;
+  --color-lemon-40: #f5e27f;
+  --color-lemon-30: #f9edae;
+  --color-lemon-10: #faf1c1;
+  --color-lemon-desaturated: #e4d795;
+
+  /* Melon */
+  --color-melon-90: #477231;
+  --color-melon-70: #4B842E;
+  --color-melon-60: #5da03b;
+  --color-melon-50: #7ab95b;
+  --color-melon-40: #a1d687;
+  --color-melon-30: #bee2ab;
+  --color-melon-10: #e3f8d8;
+  --color-melon-desaturated: #a9d0b2;
+
+  /* Mint */
+  --color-mint-90: #017298;
+  --color-mint-70: #097ea5;
+  --color-mint-60: #2496bc;
+  --color-mint-50: #59b5d4;
+  --color-mint-40: #8ac7db;
+  --color-mint-30: #b1d9e7;
+  --color-mint-10: #dcf2f9;
+  --color-mint-desaturated: #a2cbd8;
+
+  /* Blueberry */
+  --color-blueberry-90: #1c4daf;
+  --color-blueberry-70: #406ecb;
+  --color-blueberry-60: #5b83d2;
+  --color-blueberry-50: #6992e2;
+  --color-blueberry-40: #8baff9;
+  --color-blueberry-30: #bbd1fb;
+  --color-blueberry-10: #d7e4ff;
+  --color-blueberry-desaturated: #adc7e0;
+
+  /* Grape */
+  --color-grape-90: #4a3ab6;
+  --color-grape-70: #7256db;
+  --color-grape-60: #846ce0;
+  --color-grape-50: #8e81e4;
+  --color-grape-40: #a2a3f0;
+  --color-grape-30: #cfcff7;
+  --color-grape-10: #dedcf9;
+  --color-grape-desaturated: #bdbbdd;
+
+  /* Dragonfruit */
+  --color-dragonfruit-90: #a3439d;
+  --color-dragonfruit-70: #ba4aab;
+  --color-dragonfruit-60: #c464ba;
+  --color-dragonfruit-50: #ca72c1;
+  --color-dragonfruit-40: #db89d1;
+  --color-dragonfruit-30: #e6bce2;
+  --color-dragonfruit-10: #ffe1f3;
+  --color-dragonfruit-desaturated: #e8c9dd;
+
+  /* Truffle */
+  --color-truffle-90: #46534f;
+  --color-truffle-70: #60716c;
+  --color-truffle-60: #6c7f79;
+  --color-truffle-50: #839590;
+  --color-truffle-40: #aab6b2;
+  --color-truffle-30: #c5cecb;
+  --color-truffle-10: #ecefee;
+  --color-truffle-desaturated: #c4cac8;
+
+  /* Typography */
+  --font-family: "ABC Social", Arial, sans-serif;
+  /* Add more variables as needed */
+}
+
+/* Layouts */
+
+/* Colors */
+
+/* Typography */
+
+/* Display Type */
+
+@font-face {
+  font-family: "ABC Social";
+  src: url("./assets/fonts/ABCSocial/ABCSocial-Light.woff2") format("woff2"),
+    url("./assets/fonts/ABCSocial/ABCSocial-Light.woff") format("woff"),
+    url("./assets/fonts/ABCSocial/ABCSocial-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ABC Social";
+  src: url("./assets/fonts/ABCSocial/ABCSocial-LightItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/ABCSocial/ABCSocial-LightItalic.woff") format("woff"),
+    url("./assets/fonts/ABCSocial/ABCSocial-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "ABC Social";
+  src: url("./assets/fonts/ABCSocial/ABCSocial-Medium.woff2") format("woff2"),
+    url("./assets/fonts/ABCSocial/ABCSocial-Medium.woff") format("woff"),
+    url("./assets/fonts/ABCSocial/ABCSocial-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ABC Social";
+  src: url("./assets/fonts/ABCSocial/ABCSocial-MediumItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/ABCSocial/ABCSocial-MediumItalic.woff") format("woff"),
+    url("./assets/fonts/ABCSocial/ABCSocial-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* STK Bureau - SerifBook */
+@font-face {
+  font-family: 'STK Bureau';
+  src: url('./assets/fonts/STKBureau/STKBureau-SerifBook.otf') format('opentype'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifBook.ttf') format('truetype'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifBook.woff') format('woff'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifBook.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* STK Bureau - SerifBook Italic */
+@font-face {
+  font-family: 'STK Bureau';
+  src: url('./assets/fonts/STKBureau/STKBureau-SerifBookItalic.otf') format('opentype'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifBookItalic.ttf') format('truetype'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifBookItalic.woff') format('woff'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifBookItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* STK Bureau - SerifLight */
+@font-face {
+  font-family: 'STK Bureau';
+  src: url('./assets/fonts/STKBureau/STKBureau-SerifLight.otf') format('opentype'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifLight.ttf') format('truetype'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifLight.woff') format('woff'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifLight.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* STK Bureau - SerifLight Italic */
+@font-face {
+  font-family: 'STK Bureau';
+  src: url('./assets/fonts/STKBureau/STKBureau-SerifLightItalic.otf') format('opentype'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifLightItalic.ttf') format('truetype'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifLightItalic.woff') format('woff'),
+       url('./assets/fonts/STKBureau/STKBureau-SerifLightItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+
+
+.display {
+  font-family: "STK Bureau", sans-serif;
+}
+
+.headline,
+.title,
+.text,
+.link {
+  font-family: "ABC Social", sans-serif;
+}
+
+/* Display Type */
+.display-large {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2%;
+}
+
+.display-medium {
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1%;
+}
+
+.display-small {
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -1%;
+}
+
+.display-xsmall {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -1%;
+}
+
+/* Headline Type */
+.headline-large {
+  font-size: 24px;
+  line-height: 1.33;
+  font-weight: 900;
+  letter-spacing: 0%;
+}
+
+.headline-medium {
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 900;
+  letter-spacing: 0%;
+}
+
+.headline-small {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 900;
+  letter-spacing: 0%;
+}
+
+/* Title Type */
+.title-large-primary {
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+  letter-spacing: 0%;
+}
+
+.title-medium-primary {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: bold;
+  letter-spacing: 0%;
+}
+
+.title-small-primary {
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: bold;
+  letter-spacing: 0%;
+}
+
+.title-xsmall-primary {
+  font-size: 12px;
+  line-height: 1.33;
+  font-weight: bold;
+  letter-spacing: 0%;
+}
+
+.title-xxsmall-primary {
+  font-size: 11px;
+  line-height: 1.33;
+  font-weight: bold;
+  letter-spacing: 0%;
+}
+
+/* Secondary Title Type */
+.title-large-secondary {
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.title-medium-secondary {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.title-small-secondary {
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.title-xsmall-secondary {
+  font-size: 12px;
+  line-height: 1.33;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.title-xxsmall-secondary {
+  font-size: 11px;
+  line-height: 1.33;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+/* Body Text Type */
+.text-large {
+  font-size: 18px;
+  line-height: 1.56;
+  font-weight: normal;
+  letter-spacing: 0%;
+}
+
+.text-medium {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  letter-spacing: 0%;
+}
+
+.text-small {
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: normal;
+  letter-spacing: 0%;
+}
+
+.text-xsmall {
+  font-size: 12px;
+  line-height: 1.33;
+  font-weight: normal;
+  letter-spacing: 0%;
+}
+
+.text-xxsmall {
+  font-size: 11px;
+  line-height: 1.45;
+  font-weight: normal;
+  letter-spacing: 0%;
+}
+
+/* Links Type */
+
+.link {
+  color: var(--color-black);
+}
+.link-large {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  letter-spacing: 0%;
+  text-decoration: underline;
+}
+
+.link-medium {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  letter-spacing: 0%;
+  text-decoration: underline;
+}
+
+.link-small {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 0%;
+  text-decoration: underline;
+}
+
+.link-xsmall {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  letter-spacing: 1%;
+  text-decoration: underline;
+}
+
+/* Spacing */
+
+/* Icons */
+
+/* Placement */
+
+/* Component Elements */
+
+/* Buttons */
+
+/* Base Button Styles */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 32px;
+  min-width: 32px;
+  padding: 0 12px;
+  font-size: 12px;
+  font-family: "ABC Social", sans-serif;
+  line-height: 1.33;
+  font-weight: normal;
+  letter-spacing: 0%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+  gap: 8px;
+}
+
+.button-icon {
+  padding: 0 8px;
+}
+
+.button-text {
+  padding: 0 12px;
+}
+
+.button-icon-text {
+  padding: 0 8px 0 12px;
+}
+
+/* Small Button */
+.button-small {
+  height: 32px;
+  font-size: 11px;
+  line-height: 1.33;
+}
+
+.button-small.icon-button .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.button-small.icon-button {
+  height: 32px;
+  padding: 0 12px;
+}
+
+/* Medium Button */
+.button-medium {
+  height: 40px;
+  min-width: 40px;
+  padding: 0 16px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.button-medium.icon-button {
+  height: 40px;
+  min-width: 40px;
+  padding: 0 16px;
+}
+
+.button-medium.icon-button .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.button-text {
+  padding: 0 16px;
+}
+
+.button-icon-text {
+  padding: 0 12px 0 8px;
+}
+
+/* Large Button */
+.button-large {
+  height: 44px;
+  min-width: 44px;
+  padding: 0 16px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.button-large.icon-button {
+  height: 44px;
+  min-width: 44px;
+  padding: 0 16px;
+}
+
+.button-large.icon-button .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.button-text {
+  padding: 0 16px;
+}
+
+.icon-button:hover {
+  background-color: var(--color-primary-90);
+}
+
+.icon-button-icon {
+  display: flex;
+  fill: var(--color-white); /* Set the icon fill color to white */
+}
+
+.icon-button-text {
+  display: flex;
+}
+
+.icon-button .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  fill: var(--color-white); /* Set the icon fill color to white */
+}
+
+/* Button States */
+.button:hover,
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  /* State Styles */
+}
+
+.button:disabled,
+.button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.button.skeleton {
+  animation: skeleton-loading 1.2s infinite ease-in-out;
+}
+
+/* Button Variants */
+.button-primary {
+  background-color: var(--color-primary-70);
+  color: var(--color-white);
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: var(--color-primary-90);
+  /* Adjust text color for hover/focus state */
+}
+
+.button-primary:disabled,
+.button-primary[disabled] {
+  background-color: var(--color-gray-40);
+}
+
+/* Primary Buttons */
+.button-primary:focus {
+  box-shadow: 0 0 0 2px #3770e4;
+  background-color: var(--color-primary-70);
+}
+
+.button-secondary {
+  background-color: var(--color-white);
+  color: var(--color-gray-80);
+  border: 2px solid var(--color-gray-80);
+}
+
+.button-secondary:hover {
+  border-color: var(--color-gray-90);
+  color: var(--color-gray-90);
+  background-color: var(--color-gray-20);
+}
+
+.button-secondary:active {
+  border-color: var(--color-black);
+  color: var(--color-black);
+  background-color: var(--color-gray-30);
+}
+
+.button-secondary:focus,
+.button-secondary:active {
+  box-shadow: 0 0 0 2px #3770e4;
+}
+
+/* Rest of the secondary button states and variants */
+
+.button-ghost {
+  /* Ghost Button Styles */
+}
+
+.button-ghost-inverse {
+  /* Ghost Inverse Button Styles */
+}
+
+.button-inverse {
+  /* Inverse Button Styles */
+}
+
+/* Links */
+
+/* Labels */
+
+/* Forms */
+/* Form Group Styles */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  font-family: "ABC Social", Arial, sans-serif;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-family: "ABC Social", Arial, sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+}
+
+.input {
+  width: 288px;
+  height: 40px;
+  padding: 10px 10px 10px 12px;
+  border-radius: 8px;
+  border: 2px solid #737373;
+  gap: 8px;
+  background: var(--color-white);
+  font-family: "ABC Social", Arial, sans-serif;
+}
+
+/* Text Area Styles */
+.textarea {
+  width: 288px;
+  height: 80px;
+  padding: 10px 10px 10px 12px;
+  border-radius: 8px;
+  border: 2px solid #737373;
+  gap: 8px;
+  background: var(--color-white);
+  font-family: "ABC Social", Arial, sans-serif;
+}
+
+/* Input Search Styles */
+.input-search {
+  width: 288px;
+  height: 40px;
+  padding: 10px 10px 10px 12px;
+  border-radius: 8px;
+  border: 2px solid #737373;
+  gap: 8px;
+  background: var(--color-white);
+  font-family: "ABC Social", Arial, sans-serif;
+}
+
+/* Default State */
+.input {
+  border: 2px solid #737373;
+}
+
+/* Hover State */
+.input:hover {
+  border: 2px solid var(--color-gray-90);
+}
+
+/* Focus State */
+.input:focus {
+  border: 2px solid #3770e4;
+  box-shadow: 0px 0px 0px 2px #3770e4;
+}
+
+/* Populated State */
+.input:not(:placeholder-shown) {
+  border: 2px solid #737373;
+}
+
+/* Alert State */
+.input.alert {
+  border: 2px solid #e02935;
+}
+
+/* Disabled State */
+.input:disabled,
+.input-search:disabled {
+  border-color: #8c8c8c;
+  color: #8c8c8c;
+  background-color: var(--color-white);
+  cursor: not-allowed;
+}
+
+/* Disabled State Placeholder */
+.input:disabled::placeholder,
+.input-search:disabled::placeholder {
+  color: #8c8c8c;
+}
+
+/* Read-only State */
+.input:read-only {
+  border: 2px solid #737373;
+  background-color: #f5f5f5;
+  cursor: default;
+}
+
+.textarea:disabled {
+  border-color: #8c8c8c;
+  color: #8c8c8c;
+  cursor: not-allowed;
+}
+
+.textarea:hover {
+  border: 2px solid var(--color-gray-90);
+}
+
+/* Disabled State Placeholder */
+.textarea:disabled::placeholder {
+  color: #8c8c8c;
+}
+
+/* Rest of the Input Field Styles and States */
+
+/* Toggle / Switch */
+
+/* Select */
+
+/* Select Field Styles */
+.select {
+  width: 288px;
+  height: 40px;
+  padding: 10px 30px 10px 12px;
+  border-radius: 8px;
+  border: 2px solid #737373;
+  background: var(--color-white);
+  appearance: none;
+}
+
+/* Rest of the Select Field Styles and States */
+
+/* Checkboxes and Radiobuttons */
+
+/* Tags */
+
+/* Structure */
+
+/* Cards */
+
+/* Card Container */
+.card-container {
+  width: 236px;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  gap: 12px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px #0000000a;
+  transition: box-shadow 0.3s ease;
+  flex: 1;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* Card Container Hover State */
+.card-container:hover {
+  /* Existing hover styles */
+  box-shadow: 0px 20px 12px 0px #00000033;
+}
+
+.selected {
+  border: 2px solid var(--color-gray-100);
+}
+
+.focus {
+  border: 2px solid #eeeeee;
+  box-shadow: 0px 0px 0px 2px #3770e4;
+}
+
+/* Card Container End State */
+.card-container.end-state {
+  /* Add end state styles here */
+}
+
+/* Card Image */
+.card-image {
+  width: 100%;
+  height: 124px;
+  border-radius: 8px;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+/* Card Title */
+.card-title {
+  /* Common Title Styles */
+  font-family: ABC Social;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+/* Card Row */
+.card-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Card Avatar */
+.card-avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.card-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Card Text */
+.card-text {
+  /* Common Text Styles */
+  font-family: ABC Social;
+  color: var(--color-gray-70);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.card-footer-container {
+  margin-top: 40px;
+}
+
+/* Icons */
+
+/* Define CSS classes for the icons */
+.icon-add:before {
+  content: url("assets/icons/app-add.svg");
+}
+
+.icon-code:before {
+  content: url("assets/icons/app-code.svg");
+}
+
+.icon-archive:before {
+  content: url("assets/icons/archive.svg");
+}
+
+.icon-arrow-back:before {
+  content: url("assets/icons/arrow-back.svg");
+}
+
+.icon-arrow-down:before {
+  content: url("assets/icons/arrow-down.svg");
+}
+
+.icon-arrow-forward:before {
+  content: url("assets/icons/arrow-forward.svg");
+}
+
+.icon-arrow-up:before {
+  content: url("assets/icons/arrow-up.svg");
+}
+
+.icon-check:before {
+  content: url("assets/icons/check.svg");
+}
+
+.icon-chevron-down-filled:before {
+  content: url("assets/icons/chevron-down-filled.svg");
+}
+
+.icon-chevron-down:before {
+  content: url("assets/icons/chevron-down.svg");
+}
+
+.icon-chevron-go-to-first:before {
+  content: url("assets/icons/chevron-go-to-first.svg");
+}
+
+.icon-chevron-go-to-last:before {
+  content: url("assets/icons/chevron-go-to-last.svg");
+}
+
+.icon-chevron-left-filled:before {
+  content: url("assets/icons/chevron-left-filled.svg");
+}
+
+.icon-chevron-left:before {
+  content: url("assets/icons/chevron-left.svg");
+}
+
+.icon-chevron-right-filled:before {
+  content: url("assets/icons/chevron-right-filled.svg");
+}
+
+.icon-chevron-right:before {
+  content: url("assets/icons/chevron-right.svg");
+}
+
+.icon-chevron-up-filled:before {
+  content: url("assets/icons/chevron-up-filled.svg");
+}
+
+.icon-chevron-up:before {
+  content: url("assets/icons/chevron-up.svg");
+}
+
+.icon-close:before {
+  content: url("assets/icons/close.svg");
+}
+
+.icon-copy:before {
+  content: url("assets/icons/copy.svg");
+}
+
+.icon-cursor:before {
+  content: url("assets/icons/cursor.svg");
+}
+
+.icon-delete:before {
+  content: url("assets/icons/delete.svg");
+}
+
+.icon-edit:before {
+  content: url("assets/icons/edit.svg");
+}
+
+.icon-email:before {
+  content: url("assets/icons/email.svg");
+}
+
+.icon-error:before {
+  content: url("assets/icons/error.svg");
+}
+
+.icon-extract:before {
+  content: url("assets/icons/extract.svg");
+}
+
+.icon-favorite-empty:before {
+  content: url("assets/icons/favorite-empty.svg");
+}
+
+.icon-favorite:before {
+  content: url("assets/icons/favorite.svg");
+}
+
+.icon-folder-closed:before {
+  content: url("assets/icons/folder-closed.svg");
+}
+
+.icon-folder-open:before {
+  content: url("assets/icons/folder-open.svg");
+}
+
+.icon-getting-started:before {
+  content: url("assets/icons/getting-started.svg");
+}
+
+.icon-help:before {
+  content: url("assets/icons/help.svg");
+}
+
+.icon-image-gif:before {
+  content: url("assets/icons/image-gif.svg");
+}
+
+.icon-image-unavailable:before {
+  content: url("assets/icons/image-unavailable.svg");
+}
+
+.icon-info:before {
+  content: url("assets/icons/info.svg");
+}
+
+.icon-insight:before {
+  content: url("assets/icons/insight.svg");
+}
+
+.icon-label:before {
+  content: url("assets/icons/label.svg");
+}
+
+.icon-link-open:before {
+  content: url("assets/icons/link-open.svg");
+}
+
+.icon-logo-azure:before {
+  content: url("assets/icons/logo-azure.svg");
+}
+
+.icon-logo-dropbox:before {
+  content: url("assets/icons/logo-dropbox.svg");
+}
+
+.icon-logo-github:before {
+  content: url("assets/icons/logo-github.svg");
+}
+
+.icon-logo-google-drive:before {
+  content: url("assets/icons/logo-google-drive.svg");
+}
+
+.icon-logo-jira:before {
+  content: url("assets/icons/logo-jira.svg");
+}
+
+.icon-logo-msteams:before {
+  content: url("assets/icons/logo-msteams.svg");
+}
+
+.icon-logo-one-drive:before {
+  content: url("assets/icons/logo-one-drive.svg");
+}
+
+.icon-logo-slack:before {
+  content: url("assets/icons/logo-slack.svg");
+}
+
+.icon-member:before {
+  content: url("assets/icons/member.svg");
+}
+
+.icon-menu:before {
+  content: url("assets/icons/menu.svg");
+}
+
+.icon-minus:before {
+  content: url("assets/icons/minus.svg");
+}
+
+.icon-move-canvas:before {
+  content: url("assets/icons/move-canvas.svg");
+}
+
+.icon-not-allowed:before {
+  content: url("assets/icons/not-allowed.svg");
+}
+
+.icon-open:before {
+  content: url("assets/icons/open.svg");
+}
+
+.icon-paste:before {
+  content: url("assets/icons/paste.svg");
+}
+
+.icon-pause:before {
+  content: url("assets/icons/pause.svg");
+}
+
+.icon-people:before {
+  content: url("assets/icons/people.svg");
+}
+
+.icon-play:before {
+  content: url("assets/icons/play.svg");
+}
+
+.icon-plus-1:before {
+  content: url("assets/icons/plus-1.svg");
+}
+
+.icon-plus-5:before {
+  content: url("assets/icons/plus-5.svg");
+}
+
+.icon-plus-alt:before {
+  content: url("assets/icons/plus-alt.svg");
+}
+
+.icon-plus:before {
+  content: url("assets/icons/plus.svg");
+}
+
+.icon-preview:before {
+  content: url("assets/icons/preview.svg");
+}
+
+.icon-reactions:before {
+  content: url("assets/icons/reactions.svg");
+}
+
+.icon-redo:before {
+  content: url("assets/icons/redo.svg");
+}
+
+.icon-send:before {
+  content: url("assets/icons/send.svg");
+}
+
+.icon-settings:before {
+  content: url("assets/icons/settings.svg");
+}
+
+.icon-sort-asc:before {
+  content: url("assets/icons/sort-asc.svg");
+}
+
+.icon-sort-des:before {
+  content: url("assets/icons/sort-des.svg");
+}
+
+.icon-sort:before {
+  content: url("assets/icons/sort.svg");
+}
+
+.icon-status-broken:before {
+  content: url("assets/icons/status-broken.svg");
+}
+
+.icon-status-complete:before {
+  content: url("assets/icons/status-complete.svg");
+}
+
+.icon-status-processing:before {
+  content: url("assets/icons/status-processing.svg");
+}
+
+.icon-sticky-circle-fold:before {
+  content: url("assets/icons/sticky-circle-fold.svg");
+}
+
+.icon-sticky-circle:before {
+  content: url("assets/icons/sticky-circle.svg");
+}
+
+.icon-sticky-rectangle-fold:before {
+  content: url("assets/icons/sticky-rectangle-fold.svg");
+}
+
+.icon-sticky-rectangle:before {
+  content: url("assets/icons/sticky-rectangle.svg");
+}
+
+.icon-sticky-square-fold:before {
+  content: url("assets/icons/sticky-square-fold.svg");
+}
+
+.icon-sticky-square:before {
+  content: url("assets/icons/sticky-square.svg");
+}
+
+.icon-stop:before {
+  content: url("assets/icons/stop.svg");
+}
+
+.icon-sync:before {
+  content: url("assets/icons/sync.svg");
+}
+
+.icon-undo:before {
+  content: url("assets/icons/undo.svg");
+}
+
+.icon-upload-computer:before {
+  content: url("assets/icons/upload-computer.svg");
+}
+
+.icon-video:before {
+  content: url("assets/icons/video.svg");
+}
+
+.icon-warning:before {
+  content: url("assets/icons/warning.svg");
+}
+
+/* Toolbars */
+
+/* Define CSS classes for the icons */
+.icon-mode-focus-double::before {
+  content: url("assets/icons/mode-focus-double.svg");
+}
+
+.icon-mode-focus::before {
+  content: url("assets/icons/mode-focus.svg");
+}
+
+.icon-reactions-transport::before {
+  content: url("assets/icons/reactions-transport.svg");
+}
+
+.icon-reactions-sport::before {
+  content: url("assets/icons/reactions-sport.svg");
+}
+
+.icon-reactions-music::before {
+  content: url("assets/icons/reactions-music.svg");
+}
+
+.icon-reactions-flags::before {
+  content: url("assets/icons/reactions-flags.svg");
+}
+
+.icon-reactions-clothes::before {
+  content: url("assets/icons/reactions-clothes.svg");
+}
+
+.icon-reactions-animals::before {
+  content: url("assets/icons/reactions-animals.svg");
+}
+
+.icon-reactions-food::before {
+  content: url("assets/icons/reactions-food.svg");
+}
+
+.icon-reactions-add::before {
+  content: url("assets/icons/reactions-add.svg");
+}
+
+.icon-ai-summarize::before {
+  content: url("assets/icons/ai-summarize.svg");
+}
+
+.icon-ai-cluster-sentiment::before {
+  content: url("assets/icons/ai-cluster-sentiment.svg");
+}
+
+.icon-ai-cluster-topic::before {
+  content: url("assets/icons/ai-cluster-topic.svg");
+}
+
+.icon-ai-mind-maps::before {
+  content: url("assets/icons/ai-mind-maps.svg");
+}
+
+.icon-ai-insights::before {
+  content: url("assets/icons/ai-insights.svg");
+}
+
+.icon-actions {
+  content: url("assets/icons/actions.svg");
+}
+
+.icon-find-and-replace::before {
+  content: url("assets/icons/find-and-replace.svg");
+}
+
+.icon-table-delete-column::before {
+  content: url("assets/icons/table-delete-column.svg");
+}
+
+.icon-table-delete-row::before {
+  content: url("assets/icons/table-delete-row.svg");
+}
+
+.icon-sticky-add::before {
+  content: url("assets/icons/sticky-add.svg");
+}
+
+.icon-new::before {
+  content: url("assets/icons/new.svg");
+}
+
+.icon-scan::before {
+  content: url("assets/icons/scan.svg");
+}
+
+.icon-row-insert-above::before {
+  content: url("assets/icons/row-insert-above.svg");
+}
+
+.icon-row-insert-below::before {
+  content: url("assets/icons/row-insert-below.svg");
+}
+
+.icon-column-insert-right::before {
+  content: url("assets/icons/column-insert-right.svg");
+}
+
+.icon-column-insert-left::before {
+  content: url("assets/icons/column-insert-left.svg");
+}
+
+.icon-stroke-arrow-none::before {
+  content: url("assets/icons/stroke-arrow-none.svg");
+}
+
+.icon-switch-type-stickies::before {
+  content: url("assets/icons/switch-type-stickies.svg");
+}
+
+.icon-list-bullet::before {
+  content: url("assets/icons/list-bullet.svg");
+}
+
+.icon-list-number::before {
+  content: url("assets/icons/list-number.svg");
+}
+
+.icon-rotate::before {
+  content: url("assets/icons/rotate.svg");
+}
+
+.icon-whats-new::before {
+  content: url("assets/icons/whats-new.svg");
+}
+
+.icon-show-caption::before {
+  content: url("assets/icons/show-caption.svg");
+}
+
+.icon-widget-options::before {
+  content: url("assets/icons/widget-options.svg");
+}
+
+.icon-download-more::before {
+  content: url("assets/icons/download-more.svg");
+}
+
+.icon-download::before {
+  content: url("assets/icons/download.svg");
+}
+
+.icon-download-all::before {
+  content: url("assets/icons/download-all.svg");
+}
+
+.icon-download-selection::before {
+  content: url("assets/icons/download-selection.svg");
+}
+
+.icon-download-multiple::before {
+  content: url("assets/icons/download-multiple.svg");
+}
+
+.icon-copy-text::before {
+  content: url("assets/icons/copy-text.svg");
+}
+
+.icon-paste-style::before {
+  content: url("assets/icons/paste-style.svg");
+}
+
+.icon-copy-style::before {
+  content: url("assets/icons/copy-style.svg");
+}
+
+.icon-draw-erase::before {
+  content: url("assets/icons/draw-erase.svg");
+}
+
+.icon-draw-pencil::before {
+  content: url("assets/icons/draw-pencil.svg");
+}
+
+.icon-table-cells-merge::before {
+  content: url("assets/icons/table-cells-merge.svg");
+}
+
+.icon-table-cells-unmerge::before {
+  content: url("assets/icons/table-cells-unmerge.svg");
+}
+
+.icon-send-to-touchscreen::before {
+  content: url("/assets/icons/send-to-touchscreen.svg");
+}
+
+.icon-area-title::before {
+  content: url("assets/icons/area-title.svg");
+}
+
+.icon-area-absorb::before {
+  content: url("assets/icons/area-absorb.svg");
+}
+
+.icon-animations::before {
+  content: url("assets/icons/animations.svg");
+}
+
+.icon-app-add::before {
+  content: url("assets/icons/app-add.svg");
+}
+
+.icon-app-code::before {
+  content: url("assets/icons/app-code.svg");
+}
+
+.icon-archive::before {
+  content: url("assets/icons/archive.svg");
+}
+
+.icon-arrow-back::before {
+  content: url("assets/icons/arrow-back.svg");
+}
+
+.icon-arrow-down::before {
+  content: url("assets/icons/arrow-down.svg");
+}
+
+.icon-arrow-forward::before {
+  content: url("assets/icons/arrow-forward.svg");
+}
+
+.icon-arrow-up::before {
+  content: url("assets/icons/arrow-up.svg");
+}
+
+.icon-check::before {
+  content: url("assets/icons/check.svg");
+}
+
+.icon-chevron-down-filled::before {
+  content: url("assets/icons/chevron-down-filled.svg");
+}
+
+.icon-chevron-down::before {
+  content: url("assets/icons/chevron-down.svg");
+}
+
+.icon-chevron-go-to-first::before {
+  content: url("assets/icons/chevron-go-to-first.svg");
+}
+
+.icon-chevron-go-to-last::before {
+  content: url("assets/icons/chevron-go-to-last.svg");
+}
+
+.icon-chevron-left-filled::before {
+  content: url("assets/icons/chevron-left-filled.svg");
+}
+
+.icon-chevron-left::before {
+  content: url("assets/icons/chevron-left.svg");
+}
+
+.icon-chevron-right-filled::before {
+  content: url("assets/icons/chevron-right-filled.svg");
+}
+
+.icon-chevron-right::before {
+  content: url("assets/icons/chevron-right.svg");
+}
+
+.icon-chevron-up-filled::before {
+  content: url("assets/icons/chevron-up-filled.svg");
+}
+
+.icon-chevron-up::before {
+  content: url("assets/icons/chevron-up.svg");
+}
+
+.icon-close::before {
+  content: url("assets/icons/close.svg");
+}
+
+.icon-copy::before {
+  content: url("assets/icons/copy.svg");
+}
+
+.icon-cursor::before {
+  content: url("assets/icons/cursor.svg");
+}
+
+.icon-delete::before {
+  content: url("assets/icons/delete.svg");
+}
+
+.icon-edit::before {
+  content: url("assets/icons/edit.svg");
+}
+
+.icon-email::before {
+  content: url("assets/icons/email.svg");
+}
+
+.icon-error::before {
+  content: url("assets/icons/error.svg");
+}
+
+.icon-extract::before {
+  content: url("assets/icons/extract.svg");
+}
+
+.icon-favorite-empty::before {
+  content: url("assets/icons/favorite-empty.svg");
+}
+
+.icon-favorite::before {
+  content: url("assets/icons/favorite.svg");
+}
+
+.icon-folder-closed::before {
+  content: url("assets/icons/folder-closed.svg");
+}
+
+.icon-folder-open::before {
+  content: url("assets/icons/folder-open.svg");
+}
+
+.icon-getting-started::before {
+  content: url("assets/icons/getting-started.svg");
+}
+
+.icon-help::before {
+  content: url("assets/icons/help.svg");
+}
+
+.icon-image-gif::before {
+  content: url("assets/icons/image-gif.svg");
+}
+
+.icon-image-unavailable::before {
+  content: url("assets/icons/image-unavailable.svg");
+}
+
+.icon-info::before {
+  content: url("assets/icons/info.svg");
+}
+
+.icon-insight::before {
+  content: url("assets/icons/insight.svg");
+}
+
+.icon-label::before {
+  content: url("assets/icons/label.svg");
+}
+
+.icon-link-open::before {
+  content: url("assets/icons/link-open.svg");
+}
+
+.icon-logo-azure::before {
+  content: url("assets/icons/logo-azure.svg");
+}
+
+.icon-logo-dropbox::before {
+  content: url("assets/icons/logo-dropbox.svg");
+}
+
+.icon-logo-github::before {
+  content: url("assets/icons/logo-github.svg");
+}
+
+.icon-logo-google-drive::before {
+  content: url("assets/icons/logo-google-drive.svg");
+}
+
+.icon-logo-jira::before {
+  content: url("assets/icons/logo-jira.svg");
+}
+
+.icon-logo-msteams::before {
+  content: url("assets/icons/logo-msteams.svg");
+}
+
+.icon-logo-one-drive::before {
+  content: url("assets/icons/logo-one-drive.svg");
+}
+
+.icon-logo-slack::before {
+  content: url("assets/icons/logo-slack.svg");
+}
+
+.icon-member::before {
+  content: url("assets/icons/member.svg");
+}
+
+.icon-menu::before {
+  content: url("assets/icons/menu.svg");
+}
+
+.icon-minus::before {
+  content: url("assets/icons/minus.svg");
+}
+
+.icon-move-canvas::before {
+  content: url("assets/icons/move-canvas.svg");
+}
+
+.icon-not-allowed::before {
+  content: url("assets/icons/not-allowed.svg");
+}
+
+.icon-open::before {
+  content: url("assets/icons/open.svg");
+}
+
+.icon-paste::before {
+  content: url("assets/icons/paste.svg");
+}
+
+.icon-pause::before {
+  content: url("assets/icons/pause.svg");
+}
+
+.icon-people::before {
+  content: url("assets/icons/people.svg");
+}
+
+.icon-play::before {
+  content: url("assets/icons/play.svg");
+}
+
+.icon-add::before {
+  content: url("assets/icons/app-add.svg");
+}
+
+.icon-code::before {
+  content: url("assets/icons/app-code.svg");
+}
+
+.icon-archive::before {
+  content: url("assets/icons/archive.svg");
+}
+
+.icon-arrow-back::before {
+  content: url("assets/icons/arrow-back.svg");
+}
+
+.icon-arrow-down::before {
+  content: url("assets/icons/arrow-down.svg");
+}
+
+.icon-arrow-forward::before {
+  content: url("assets/icons/arrow-forward.svg");
+}
+
+.icon-arrow-up::before {
+  content: url("assets/icons/arrow-up.svg");
+}
+
+.icon-check::before {
+  content: url("assets/icons/check.svg");
+}
+
+.icon-chevron-down-filled::before {
+  content: url("assets/icons/chevron-down-filled.svg");
+}
+
+.icon-chevron-down::before {
+  content: url("assets/icons/chevron-down.svg");
+}
+
+.icon-chevron-go-to-first::before {
+  content: url("assets/icons/chevron-go-to-first.svg");
+}
+
+.icon-chevron-go-to-last::before {
+  content: url("assets/icons/chevron-go-to-last.svg");
+}
+
+.icon-chevron-left-filled::before {
+  content: url("assets/icons/chevron-left-filled.svg");
+}
+
+.icon-chevron-left::before {
+  content: url("assets/icons/chevron-left.svg");
+}
+
+.icon-chevron-right-filled::before {
+  content: url("assets/icons/chevron-right-filled.svg");
+}
+
+.icon-chevron-right::before {
+  content: url("assets/icons/chevron-right.svg");
+}
+
+.icon-chevron-up-filled::before {
+  content: url("assets/icons/chevron-up-filled.svg");
+}
+
+.icon-chevron-up::before {
+  content: url("assets/icons/chevron-up.svg");
+}
+
+.icon-close::before {
+  content: url("assets/icons/close.svg");
+}
+
+.icon-copy::before {
+  content: url("assets/icons/copy.svg");
+}
+
+.icon-cursor::before {
+  content: url("assets/icons/cursor.svg");
+}
+
+.icon-delete::before {
+  content: url("assets/icons/delete.svg");
+}
+
+.icon-edit::before {
+  content: url("assets/icons/edit.svg");
+}
+
+.icon-email::before {
+  content: url("assets/icons/email.svg");
+}
+
+.icon-error::before {
+  content: url("assets/icons/error.svg");
+}
+
+.icon-extract::before {
+  content: url("assets/icons/extract.svg");
+}
+
+.icon-favorite-empty::before {
+  content: url("assets/icons/favorite-empty.svg");
+}
+
+.icon-favorite::before {
+  content: url("assets/icons/favorite.svg");
+}
+
+.icon-folder-closed::before {
+  content: url("assets/icons/folder-closed.svg");
+}
+
+.icon-folder-open::before {
+  content: url("assets/icons/folder-open.svg");
+}
+
+.icon-getting-started::before {
+  content: url("assets/icons/getting-started.svg");
+}
+
+.icon-help::before {
+  content: url("assets/icons/help.svg");
+}
+
+.icon-image-gif::before {
+  content: url("assets/icons/image-gif.svg");
+}
+
+.icon-image-unavailable::before {
+  content: url("assets/icons/image-unavailable.svg");
+}
+
+.icon-info::before {
+  content: url("assets/icons/info.svg");
+}
+
+.icon-insight::before {
+  content: url("assets/icons/insight.svg");
+}
+
+.icon-label::before {
+  content: url("assets/icons/label.svg");
+}
+
+.icon-link-open::before {
+  content: url("assets/icons/link-open.svg");
+}
+
+.icon-logo-azure::before {
+  content: url("assets/icons/logo-azure.svg");
+}
+
+.icon-logo-dropbox::before {
+  content: url("assets/icons/logo-dropbox.svg");
+}
+
+.icon-logo-github::before {
+  content: url("assets/icons/logo-github.svg");
+}
+
+.icon-logo-google-drive::before {
+  content: url("assets/icons/logo-google-drive.svg");
+}
+
+.icon-logo-jira::before {
+  content: url("assets/icons/logo-jira.svg");
+}
+
+.icon-logo-msteams::before {
+  content: url("assets/icons/logo-msteams.svg");
+}
+
+.icon-logo-one-drive::before {
+  content: url("assets/icons/logo-one-drive.svg");
+}
+
+.icon-logo-slack::before {
+  content: url("assets/icons/logo-slack.svg");
+}
+
+.icon-member::before {
+  content: url("assets/icons/member.svg");
+}
+
+.icon-menu::before {
+  content: url("assets/icons/menu.svg");
+}
+
+.icon-minus::before {
+  content: url("assets/icons/minus.svg");
+}
+
+.icon-move-canvas::before {
+  content: url("assets/icons/move-canvas.svg");
+}
+
+.icon-not-allowed::before {
+  content: url("assets/icons/not-allowed.svg");
+}
+
+.icon-open::before {
+  content: url("assets/icons/open.svg");
+}
+
+.icon-paste::before {
+  content: url("assets/icons/paste.svg");
+}
+
+.icon-pause::before {
+  content: url("assets/icons/pause.svg");
+}
+
+.icon-people::before {
+  content: url("assets/icons/people.svg");
+}
+
+.icon-play::before {
+  content: url("assets/icons/play.svg");
+}
+
+.icon-plus-1::before {
+  content: url("assets/icons/plus-1.svg");
+}
+
+.icon-plus-5::before {
+  content: url("assets/icons/plus-5.svg");
+}
+
+.icon-plus-alt::before {
+  content: url("assets/icons/plus-alt.svg");
+}
+
+.icon-mode-focus-double::before {
+  content: url("assets/icons/mode-focus-double.svg");
+}
+
+.icon-mode-focus::before {
+  content: url("assets/icons/mode-focus.svg");
+}
+
+.icon-reactions-transport::before {
+  content: url("assets/icons/reactions-transport.svg");
+}
+
+.icon-reactions-sport::before {
+  content: url("assets/icons/reactions-sport.svg");
+}
+
+.icon-reactions-music::before {
+  content: url("assets/icons/reactions-music.svg");
+}
+
+.icon-reactions-flags::before {
+  content: url("assets/icons/reactions-flags.svg");
+}
+
+.icon-reactions-clothes::before {
+  content: url("assets/icons/reactions-clothes.svg");
+}
+
+.icon-reactions-animals::before {
+  content: url("assets/icons/reactions-animals.svg");
+}
+
+.icon-reactions-food::before {
+  content: url("assets/icons/reactions-food.svg");
+}
+
+.icon-reactions-add::before {
+  content: url("assets/icons/reactions-add.svg");
+}
+
+.icon-ai-summarize::before {
+  content: url("assets/icons/ai-summarize.svg");
+}
+
+.icon-ai-cluster-sentiment::before {
+  content: url("assets/icons/ai-cluster-sentiment.svg");
+}
+
+.icon-ai-cluster-topic::before {
+  content: url("assets/icons/ai-cluster-topic.svg");
+}
+
+.icon-ai-mind-maps::before {
+  content: url("assets/icons/ai-mind-maps.svg");
+}
+
+.icon-ai-insights::before {
+  content: url("assets/icons/ai-insights.svg");
+}
+
+.icon-actions::before {
+  content: url("assets/icons/actions.svg");
+}
+
+.icon-find-and-replace::before {
+  content: url("assets/icons/find-and-replace.svg");
+}
+
+.icon-table-delete-column::before {
+  content: url("assets/icons/table-delete-column.svg");
+}
+
+.icon-table-delete-row::before {
+  content: url("assets/icons/table-delete-row.svg");
+}
+
+.icon-sticky-add::before {
+  content: url("assets/icons/sticky-add.svg");
+}
+
+.icon-new::before {
+  content: url("assets/icons/new.svg");
+}
+
+.icon-scan::before {
+  content: url("assets/icons/scan.svg");
+}
+
+.icon-row-insert-above::before {
+  content: url("assets/icons/row-insert-above.svg");
+}
+
+.icon-row-insert-below::before {
+  content: url("assets/icons/row-insert-below.svg");
+}
+
+.icon-column-insert-right::before {
+  content: url("assets/icons/column-insert-right.svg");
+}
+
+.icon-column-insert-left::before {
+  content: url("assets/icons/column-insert-left.svg");
+}
+
+.icon-stroke-arrow-none::before {
+  content: url("assets/icons/stroke-arrow-none.svg");
+}
+
+.icon-switch-type-stickies::before {
+  content: url("assets/icons/switch-type-stickies.svg");
+}
+
+.icon-list-bullet::before {
+  content: url("assets/icons/list-bullet.svg");
+}
+
+.icon-list-number::before {
+  content: url("assets/icons/list-number.svg");
+}
+
+.icon-rotate::before {
+  content: url("assets/icons/rotate.svg");
+}
+
+.icon-whats-new::before {
+  content: url("assets/icons/whats-new.svg");
+}
+
+.icon-show-caption::before {
+  content: url("assets/icons/show-caption.svg");
+}
+
+.icon-widget-options::before {
+  content: url("assets/icons/widget-options.svg");
+}
+
+.icon-download-more::before {
+  content: url("assets/icons/download-more.svg");
+}
+
+.icon-download::before {
+  content: url("assets/icons/download.svg");
+}
+
+.icon-download-all::before {
+  content: url("assets/icons/download-all.svg");
+}
+
+.icon-download-selection::before {
+  content: url("assets/icons/download-selection.svg");
+}
+
+.icon-download-multiple::before {
+  content: url("assets/icons/download-multiple.svg");
+}
+
+.icon-copy-text::before {
+  content: url("assets/icons/copy-text.svg");
+}
+
+.icon-paste-style::before {
+  content: url("assets/icons/paste-style.svg");
+}
+
+.icon-copy-style::before {
+  content: url("assets/icons/copy-style.svg");
+}
+
+.icon-draw-erase::before {
+  content: url("assets/icons/draw-erase.svg");
+}
+
+.icon-draw-pencil::before {
+  content: url("assets/icons/draw-pencil.svg");
+}
+
+.icon-table-cells-merge::before {
+  content: url("assets/icons/table-cells-merge.svg");
+}
+
+.icon-table-cells-unmerge::before {
+  content: url("assets/icons/table-cells-unmerge.svg");
+}
+
+.icon-send-to-touchcreen::before {
+  content: url("assets/icons/send-to-touchcreen.svg");
+}
+
+.icon-area-title::before {
+  content: url("assets/icons/area-title.svg");
+}
+
+.icon-area-absorb::before {
+  content: url("assets/icons/area-absorb.svg");
+}
+
+.icon-animations::before {
+  content: url("assets/icons/animations.svg");
+}
+
+.icon-zoom-fit::before {
+  content: url("assets/icons/zoom-fit.svg");
+}
+
+.icon-settings-nav::before {
+  content: url("assets/icons/settings-nav.svg");
+}
+
+.icon-grid-show::before {
+  content: url("assets/icons/grid-show.svg");
+}
+
+.icon-grid-snap::before {
+  content: url("assets/icons/grid-snap.svg");
+}
+
+.icon-text-align-center::before {
+  content: url("assets/icons/text-align-center.svg");
+}
+
+.icon-text-size-larger::before {
+  content: url("assets/icons/text-size-larger.svg");
+}
+
+.icon-text-align-middle::before {
+  content: url("assets/icons/text-align-middle.svg");
+}
+
+.icon-text-align-bottom::before {
+  content: url("assets/icons/text-align-bottom.svg");
+}
+
+.icon-text-align-top::before {
+  content: url("assets/icons/text-align-top.svg");
+}
+
+.icon-crop::before {
+  content: url("assets/icons/crop.svg");
+}
+
+.icon-text-align-right::before {
+  content: url("assets/icons/text-align-right.svg");
+}
+
+.icon-text-tools::before {
+  content: url("assets/icons/text-tools.svg");
+}
+
+.icon-text-align-left::before {
+  content: url("assets/icons/text-align-left.svg");
+}
+
+.icon-text-size-smaller::before {
+  content: url("assets/icons/text-size-smaller.svg");
+}
+
+.icon-text-style-strikethrough::before {
+  content: url("assets/icons/text-style-strikethrough.svg");
+}
+
+.icon-text-style-underline::before {
+  content: url("assets/icons/text-style-underline.svg");
+}
+
+.icon-stroke-arrow-style::before {
+  content: url("assets/icons/stroke-arrow-style.svg");
+}
+
+.icon-stroke-arrow-switch-direction::before {
+  content: url("assets/icons/stroke-arrow-switch-direction.svg");
+}
+
+.icon-stroke-arrow-single::before {
+  content: url("assets/icons/stroke-arrow-single.svg");
+}
+
+.icon-stroke-arrow-double::before {
+  content: url("assets/icons/stroke-arrow-double.svg");
+}
+
+.icon-resize::before {
+  content: url("assets/icons/resize.svg");
+}
+
+.icon-unlock::before {
+  content: url("assets/icons/unlock.svg");
+}
+
+.icon-unlock-facilitator::before {
+  content: url("assets/icons/unlock-facilitator.svg");
+}
+
+.icon-lock-facilitator::before {
+  content: url("assets/icons/lock-facilitator.svg");
+}
+
+.icon-text-style-italic::before {
+  content: url("assets/icons/text-style-italic.svg");
+}
+
+.icon-switch-type::before {
+  content: url("assets/icons/switch-type.svg");
+}
+
+.icon-text-style-bold::before {
+  content: url("assets/icons/text-style-bold.svg");
+}
+
+.icon-link::before {
+  content: url("assets/icons/link.svg");
+}
+
+.icon-lock::before {
+  content: url("assets/icons/lock.svg");
+}
+
+.icon-tag::before {
+  content: url("assets/icons/tag.svg");
+}
+
+.icon-duplicate::before {
+  content: url("assets/icons/duplicate.svg");
+}
+
+.icon-zoom::before {
+  content: url("assets/icons/zoom.svg");
+}
+
+.icon-drag::before {
+  content: url("assets/icons/drag.svg");
+}
+
+.icon-title-on::before {
+  content: url("assets/icons/title-on.svg");
+}
+
+.icon-title-off::before {
+  content: url("assets/icons/title-off.svg");
+}
+
+.icon-title::before {
+  content: url("assets/icons/title.svg");
+}
+
+.icon-link-broken::before {
+  content: url("assets/icons/link-broken.svg");
+}
+
+.icon-text-paragraph::before {
+  content: url("assets/icons/text-paragraph.svg");
+}
+
+.icon-filter-selection::before {
+  content: url("assets/icons/filter-selection.svg");
+}
+
+.icon-ungroup::before {
+  content: url("assets/icons/ungroup.svg");
+}
+
+.icon-group::before {
+  content: url("assets/icons/group.svg");
+}
+
+.icon-embed::before {
+  content: url("assets/icons/embed.svg");
+}
+
+.icon-embed-alt::before {
+  content: url("assets/icons/embed-alt.svg");
+}
+
+.icon-stroke-weight-thin::before {
+  content: url("assets/icons/stroke-weight-thin.svg");
+}
+
+.icon-stroke-weight-medium::before {
+  content: url("assets/icons/stroke-weight-medium.svg");
+}
+
+.icon-align-vertical::before {
+  content: url("assets/icons/align-vertical.svg");
+}
+
+.icon-stroke-weight-extraHeavy::before {
+  content: url("assets/icons/stroke-weight-extraHeavy.svg");
+}
+
+.icon-align-top::before {
+  content: url("assets/icons/align-top.svg");
+}
+
+.icon-stroke-weight-bold::before {
+  content: url("assets/icons/stroke-weight-bold.svg");
+}
+
+.icon-align-right::before {
+  content: url("assets/icons/align-right.svg");
+}
+
+.icon-stroke-weight::before {
+  content: url("assets/icons/stroke-weight.svg");
+}
+
+.icon-align-left::before {
+  content: url("assets/icons/align-left.svg");
+}
+
+.icon-align-horizontal::before {
+  content: url("assets/icons/align-horizontal.svg");
+}
+
+.icon-stroke-style-dotted-spaced::before {
+  content: url("assets/icons/stroke-style-dotted-spaced.svg");
+}
+
+.icon-align-bottom::before {
+  content: url("assets/icons/align-bottom.svg");
+}
+
+.icon-stroke-style-dotted::before {
+  content: url("assets/icons/stroke-style-dotted.svg");
+}
+
+.icon-align::before {
+  content: url("assets/icons/align.svg");
+}
+
+.icon-stroke-style-dashed::before {
+  content: url("assets/icons/stroke-style-dashed.svg");
+}
+
+.icon-stroke-style::before {
+  content: url("assets/icons/stroke-style.svg");
+}
+
+.icon-textbox::before {
+  content: url("assets/icons/textbox.svg");
+}
+
+.icon-stroke-style-solid::before {
+  content: url("assets/icons/stroke-style-solid.svg");
+}
+
+.icon-stack::before {
+  content: url("assets/icons/stack.svg");
+}
+
+.icon-move-item::before {
+  content: url("assets/icons/move-item.svg");
+}
+
+.icon-text-color::before {
+  content: url("assets/icons/text-color.svg");
+}
+
+.icon-area-add::before {
+  content: url("assets/icons/area-add.svg");
+}
+
+.icon-area::before {
+  content: url("assets/icons/area.svg");
+}
+
+.icon-area-grid::before {
+  content: url("assets/icons/area-grid.svg");
+}
+
+/* Chrome */
+
+/* Define CSS classes for the icons */
+.icon-tables::before {
+  content: url("assets/icons/tables.svg");
+}
+
+.icon-map-mind-vertical::before {
+  content: url("assets/icons/map-mind-vertical.svg");
+}
+
+.icon-map-mind-radial::before {
+  content: url("assets/icons/map-mind-radial.svg");
+}
+
+.icon-map-mind-horizontal::before {
+  content: url("assets/icons/map-mind-horizontal.svg");
+}
+
+.icon-map-mind::before {
+  content: url("assets/icons/map-mind.svg");
+}
+
+.icon-camera::before {
+  content: url("assets/icons/camera.svg");
+}
+
+.icon-draw-with-finger::before {
+  content: url("assets/icons/draw-with-finger.svg");
+}
+
+.icon-mouse-scroll::before {
+  content: url("assets/icons/mouse-scroll.svg");
+}
+
+.icon-mouse-left-click::before {
+  content: url("assets/icons/mouse-left-click.svg");
+}
+
+.icon-timer-paused::before {
+  content: url("assets/icons/timer-paused.svg");
+}
+
+.icon-text::before {
+  content: url("assets/icons/text.svg");
+}
+
+.icon-pinch::before {
+  content: url("assets/icons/pinch.svg");
+}
+
+.icon-swipe-two-finger::before {
+  content: url("assets/icons/swipe-two-finger.svg");
+}
+
+.icon-call-end::before {
+  content: url("assets/icons/call-end.svg");
+}
+
+.icon-mic-off::before {
+  content: url("assets/icons/mic-off.svg");
+}
+
+.icon-mic-on::before {
+  content: url("assets/icons/mic-on.svg");
+}
+
+.icon-call-active::before {
+  content: url("assets/icons/call-active.svg");
+}
+
+.icon-tools-custom::before {
+  content: url("assets/icons/tools-custom.svg");
+}
+
+.icon-insights::before {
+  content: url("assets/icons/insights.svg");
+}
+
+.icon-invite-alt::before {
+  content: url("assets/icons/invite-alt.svg");
+}
+
+.icon-fullScreen-exit::before {
+  content: url("assets/icons/fullScreen-exit.svg");
+}
+
+.icon-mode-presentation::before {
+  content: url("assets/icons/mode-presentation.svg");
+}
+
+.icon-outline::before {
+  content: url("assets/icons/outline.svg");
+}
+
+.icon-search::before {
+  content: url("assets/icons/search.svg");
+}
+
+.icon-import::before {
+  content: url("assets/icons/import.svg");
+}
+
+.icon-image::before {
+  content: url("assets/icons/image.svg");
+}
+
+.icon-hide::before {
+  content: url("assets/icons/hide.svg");
+}
+
+.icon-show::before {
+  content: url("assets/icons/show.svg");
+}
+
+.icon-icons::before {
+  content: url("assets/icons/icons.svg");
+}
+
+.icon-comment::before {
+  content: url("assets/icons/comment.svg");
+}
+
+.icon-more-vertical::before {
+  content: url("assets/icons/more-vertical.svg");
+}
+
+.icon-more::before {
+  content: url("assets/icons/more.svg");
+}
+
+.icon-frameworks::before {
+  content: url("assets/icons/frameworks.svg");
+}
+
+.icon-history::before {
+  content: url("assets/icons/history.svg");
+}
+
+.icon-mode-draw::before {
+  content: url("assets/icons/mode-draw.svg");
+}
+
+.icon-sticky::before {
+  content: url("assets/icons/sticky.svg");
+}
+
+.icon-shapes::before {
+  content: url("assets/icons/shapes.svg");
+}
+
+.icon-call::before {
+  content: url("assets/icons/call.svg");
+}
+
+.icon-invite::before {
+  content: url("assets/icons/invite.svg");
+}
+
+.icon-fullScreen-enter::before {
+  content: url("assets/icons/fullScreen-enter.svg");
+}
+
+.icon-map::before {
+  content: url("assets/icons/map.svg");
+}
+
+.icon-chat::before {
+  content: url("assets/icons/chat.svg");
+}
+
+.icon-session::before {
+  content: url("assets/icons/session.svg");
+}
+
+.icon-templates::before {
+  content: url("assets/icons/templates.svg");
+}
+
+.icon-swipe::before {
+  content: url("assets/icons/swipe.svg");
+}
+
+.icon-mouse::before {
+  content: url("assets/icons/mouse.svg");
+}
+
+.icon-leave::before {
+  content: url("assets/icons/leave.svg");
+}
+
+.icon-extensions::before {
+  content: url("assets/icons/extensions.svg");
+}
+
+.icon-methods::before {
+  content: url("assets/icons/methods.svg");
+}
+
+.icon-timer-empty::before {
+  content: url("assets/icons/timer-empty.svg");
+}
+
+.icon-timer::before {
+  content: url("assets/icons/timer.svg");
+}
+
+.icon-keyboard::before {
+  content: url("assets/icons/keyboard.svg");
+}
+
+.icon-my-content::before {
+  content: url("assets/icons/my-content.svg");
+}
+
+/* Factilitation */
+
+.icon-laser::before {
+  content: url("assets/icons/laser.svg");
+}
+
+.icon-onboarding-facilitator::before {
+  content: url("assets/icons/onboarding-facilitator.svg");
+}
+
+.icon-time::before {
+  content: url("assets/icons/time.svg");
+}
+
+.icon-notification::before {
+  content: url("assets/icons/notification.svg");
+}
+
+.icon-facilitator-badge-alt::before {
+  content: url("assets/icons/facilitator-badge-alt.svg");
+}
+
+.icon-facilitator-badge::before {
+  content: url("assets/icons/facilitator-badge.svg");
+}
+
+.icon-facilitation-tools::before {
+  content: url("assets/icons/facilitation-tools.svg");
+}
+
+.icon-cursor-facilitator::before {
+  content: url("assets/icons/cursor-facilitator.svg");
+}
+
+.icon-cursor-show-mine::before {
+  content: url("assets/icons/cursor-show-mine.svg");
+}
+
+.icon-cursor-guest::before {
+  content: url("assets/icons/cursor-guest.svg");
+}
+
+.icon-mode-private::before {
+  content: url("assets/icons/mode-private.svg");
+}
+
+.icon-follow::before {
+  content: url("assets/icons/follow.svg");
+}
+
+.icon-rocket::before {
+  content: url("assets/icons/rocket.svg");
+}
+
+.icon-celebrate::before {
+  content: url("assets/icons/celebrate.svg");
+}
+
+.icon-summon::before {
+  content: url("assets/icons/summon.svg");
+}
+
+.icon-vote::before {
+  content: url("assets/icons/vote.svg");
+}
