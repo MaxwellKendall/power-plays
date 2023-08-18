@@ -1,0 +1,12 @@
+.hide {
+    display: none;
+}
+
+.body {
+    height: 97%;
+}
+
+svg {
+    height: 1800px;
+    width: 97%;
+}

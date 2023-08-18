@@ -1,0 +1,12 @@
+{
+  "name": "activity-data-viz",
+  "version": "0.0.1",
+  "description": "A Mural Powerplay which graphs mural activity.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "rm -rf ../activity-data-viz.zip ; zip -r ../activity-data-viz.zip ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
